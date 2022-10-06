@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="" />
+
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/flickity.min.css" />
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Home | Homey</title>
+  </head>
+
+  <body class="article-page">
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-whit py-4">
+          <!-- Logo -->
+          <a class="navbar-brand" href="#">Homey<span>.</span></a>
+
+          <!-- Open Menu Button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- menu -->
+          <div
+            class="collapse navbar-collapse justify-content-between"
+            id="navbarNav"
+          >
+            <!-- menu -->
+            <ul class="navbar-nav pl-3 pl-md-0">
+              <li class="nav-item active">
+                <a class="nav-link p-3" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle p-3"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Blog
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li class="nav-item">
+                    <a class="nav-link pl-4" href="#">Action</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pl-4" href="#">Another action</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link pl-4" href="#">Something else</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link p-3" href="#">shop</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link p-3" href="#">about us</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link p-3" href="#">content us</a>
+              </li>
+            </ul>
+
+            <!-- navbar right -->
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="sign-up btn px-4 my-auto" href="#">Sign up</a>
+              </li>
+
+              <li class="nav-item login ml-2">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn px-4 login-button border-0" data-toggle="modal" data-target="#exampleModal">
+                  Log in
+                </button>
+
+                <!-- login form-->
+
+
+                <!-- Modal -->
+                <div class="modal fade bg-m-w login-modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                    <div class="modal-content border-0 shadow-sm">
+                      <button type="button" class="close d-sm-none c-l-m" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" style="font-size: 30px; color: #777;" >&times;</span>
+                      </button>
+                      <div class="modal-body">
+                        <div class="row align-items-center">
+                          <!-- left img -->
+                          <div class="d-none d-sm-none col-lg-6 login-img-m">
+                            <img class="img-fluid d-sm-none" src="images/4826435.jpg" alt="">
+                          </div>
+                          <!-- right form -->
+                          <div class="col-sm-12 col-lg-6 p-0">
+                            <h5 class="modal-title text-center"> Login Account</h5>
+                            <small class="modal-caption text-center d-flex ">
+                              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus
+                            </small>
+                            <form class="">
+                              <div class="form-group">
+                                <label for="Email">Email</label>
+                                <input type="Email" id="Email" class="form-control" placeholder=" " required pattern="\S+">
+                              </div>
+                              <div class="form-group">
+                                <div class="d-flex"><label for="Password">Password</label> <span class="forgot"><a href="#"> forgot? </a></span></div>
+                                <input type="password" id="Password" class="form-control" placeholder=" " required pattern="\S+">
+                              </div>
+                              <div class="form-group">
+                                <div class="c-check d-flex">
+                                  <input type="checkbox" id="Remember" checked>
+                                  <label for="Remember">
+                                    <span></span> Remember me
+                                  </label>
+                                </div>
+                              </div>
+                              <button class="btn btn-primary mb-4 w-100">log in</button>
+                            </form>
+                            <p class="c-a-o">
+                              You haven't an account?
+                              <a href="#"> create one 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16" >
+                              <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                                </svg> 
+                              </a>
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Article index image -->
+    <div class="carousel article-img" data-flickity>
+      <div class="carousel-cell">
+        <img class="img-fluid w-100" src="images/article.jpg" alt="" />
+      </div>
+    </div>
+    <!-- End Article index image -->
+
+    <!-- content -->
+    <div class="bg-light">
+      <div class="container p-70 pt-0">
+        <div class="row">
+          <!-- Article text -->
+          <div class="col-12 ml-lg-4 col-lg-11 col-xl-9 article-col">
+            <div class="card shadow-sm border-0">
+              <div class="card-body">
+                <!-- title -->
+                <h1 class="card-title">
+                  How to Leverage One Article Idea for 8 Different Markets
+                </h1>
+                <!-- subtitle -->
+                <h2 class="card-subtitle text-muted mb-3">
+                  Let your ideas do double and triple duty for maximum impact with
+                  minimal effort
+                </h2>
+                <!-- author -->
+                <div class="author d-block mb-3">
+                  <a class="d-flex align-items-center m-0 p-0">
+                    <!-- icon -->
+                    <div class="icon align-self-start">
+                      <img
+                        src="images/photo_2020-07-25_20-12-27.jpg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <!-- name -->
+                    <div class="text">
+                      <p class="m-0">
+                        <strong>Patricia Haddock</strong>
+                        <small>Mar 4</small>
+                        <small class="mx-2">·</small>
+                        <small>4 min read</small>
+                        <small class="Star">*</small>
+                      </p>
+                    </div>
+                    <!-- share -->
+                    <div class="share-article">
+                      <span class="share-btn p-2">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-box-arrow-up"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M3.5 6a.5.5 0 0 0-.5.5v8a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5v-8a.5.5 0 0 0-.5-.5h-2a.5.5 0 0 1 0-1h2A1.5 1.5 0 0 1 14 6.5v8a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 14.5v-8A1.5 1.5 0 0 1 3.5 5h2a.5.5 0 0 1 0 1h-2z"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            d="M7.646.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 1.707V10.5a.5.5 0 0 1-1 0V1.707L5.354 3.854a.5.5 0 1 1-.708-.708l3-3z"
+                          />
+                        </svg>
+                        <div class="drapdown-share">
+                          <!-- icon -->
+                          <div class="icon align-self-start linkdin">
+                            <svg viewBox="0 0 512 512" width="22" height="22" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 22 22">
+                              <path d="M186.4 142.4c0 19-15.3 34.5-34.2 34.5 -18.9 0-34.2-15.4-34.2-34.5 0-19 15.3-34.5 34.2-34.5C171.1 107.9 186.4 123.4 186.4 142.4zM181.4 201.3h-57.8V388.1h57.8V201.3zM273.8 201.3h-55.4V388.1h55.4c0 0 0-69.3 0-98 0-26.3 12.1-41.9 35.2-41.9 21.3 0 31.5 15 31.5 41.9 0 26.9 0 98 0 98h57.5c0 0 0-68.2 0-118.3 0-50-28.3-74.2-68-74.2 -39.6 0-56.3 30.9-56.3 30.9v-25.2H273.8z"></path>
+                            </svg>
+                          </div>
+                          <!-- icon -->
+                          <div class="icon align-self-start instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                            </svg>
+                          </div>
+                        </div>
+                      </span>
+                      <!--  -->
+                      <span class="save-btn p-2 pl-3">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-bookmark"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.777.416L8 13.101l-5.223 2.815A.5.5 0 0 1 2 15.5V2zm2-1a1 1 0 0 0-1 1v12.566l4.723-2.482a.5.5 0 0 1 .554 0L13 14.566V2a1 1 0 0 0-1-1H4z"
+                          />
+                        </svg>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                          fill="currentColor"
+                          class="bi bi-bookmark-fill"
+                          viewBox="0 0 16 16"
+                        >
+                          <path
+                            d="M2 2v13.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2z"
+                          />
+                        </svg>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+                <!-- End author -->
+                <!-- index img -->
+                <div class="img-inside">
+                  <img src="images/igm.jpeg" alt="" class="img-fluid">
+                </div>
+                <!-- End index img -->
+  
+  
+                <!-- Content -->
+                <div class="article-content">
+                  <p>
+                    Coming up with marketable ideas takes time and effort. Research takes time and effort. Writing takes time and effort.
+                  </p>
+                  <p>
+                    If you write as a business, you know that everything you do uses up valuable resources. It’s a tough business that can easily drain your energy and creativity. Yet to succeed, you have invest the effort over and over again.
+                  </p>
+                  <p>
+                    You need a strategy that lets you maximize your resources and minimizes your effort. You need leverage.
+                  </p>
+                  <p>
+                    Successful leverage takes some planning.
+                  </p>
+                  <section class="mt-5">
+                    <h1>Narrow Your Large Topic Into Subtopics for Greater Leverage</h2>
+                      <p>
+                        Travel is a very big topic. You want to identify subtopics and niches where you can market them.
+                      </p>
+                      <p>
+                        Choose a single article idea that you can twist and turn only slightly for each market’s audience and style. You don’t have to write a separate article for each market. You want to make it different enough that search engines categorize it as new. The information itself is consistent.
+                      </p>
+                      <!-- ad -->
+                      <a href="#" class="ad-text d-inline-block my-3 px-5 py-4 w-100"> <span>must read: </span> One morning, when Gregor Samsa woke </a>
+                      <p>
+                        Mind-mapping is a good way of coming up with multiple subtopics that you can use.
+                      </p>
+                      <figure>
+                        <div class="d-flex mt-5">
+                          <img class="img-fluid mx-auto img-content" src="images/1_DMpCqeI_wd_IM8ayDSLYSA.png">
+                        </div>
+                        <div class="d-flex mt-2 mb-4">
+                          <figcaption class="mx-auto">©PatriciaHaddock</figcaption>
+                        </div>
+                      </figure>
+                      <blockquote class="p-3 mt-3">
+                        for each market. You want to make it different enough that search engines categorize it as new. The information itself is consistent.
+                        <small class="author">---- Patricia Haddock </small>
+                      </blockquote>
+                      <ol class="my-5 ml-3">
+                        <li>
+                          <p>Mind-mapping is a good way of coming up with <a href="#">multiple subtopics</a> that you can use.</p>
+                        </li>
+                        <li>
+                          <p>Mind-mapping is a good way of coming up with multiple subtopics that you can use.</p>
+                        </li>
+                        <li>
+                          <p>Mind-mapping is a good way of coming up with multiple subtopics that you can use.</p>
+                        </li>
+                      </ol>
+                      <ul class="my-5 ml-3">
+                        <li><p>If you write as a business, you know that everything you do uses up valuable resources. Successful leverage takes some planning.</p></li>
+                        <li><p>If you write as a business, you know that.</p></li>
+                        <li><p>everything you do uses up.</p></li>
+                      </ul>
+                  </section>
+                  <p>
+                    If you write as a business, you know that everything you do uses up valuable resources. It’s a tough business that can easily drain your energy and creativity. Yet to succeed, you have invest the effort over and over again.
+                  </p>
+                </div>
+                <small class="thank-f-r">Thanks to Niklas Göke.</small>
+                <!-- End Content -->
+
+
+                <!-- tags -->
+                <div class="article-tag">
+                  <hr>
+                  <a href="#" class="badge badge-light">Writing</a>
+                  <a href="#" class="badge badge-light">Marketing</a>
+                  <a href="#" class="badge badge-light">Professional Development</a>
+                  <a href="#" class="badge badge-light">Productivity</a>
+                </div>
+                <!-- End tags -->
+  
+              </div>
+            </div>
+          </div>
+          <!-- End Article text -->
+  
+          <!-- sidebar -->
+          <div class="col-12 col-xl-3 sidebar-col flex-column ">
+
+          </div>
+          <!-- End sidebar -->
+        </div>
+      </div>
+    </div>
+    <!-- End content -->
+
+    <!-- Related posts -->
+    <section class="Related-posts-section pb-5 bg-light">
+          <div class="container">
+            <!-- heading -->
+            <div class="row">
+              <div class="col-12 pt-1 d-flex justify-content-between heading" data-aos="fade-up">
+                <a href="#"><h2>Related posts</h2></a>
+                <!-- btn -->
+                <a href="#" class="btn show-more px-3">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-arrow-right"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                    />
+                  </svg>
+                  <span>Show more</span>
+                </a>
+              </div>
+            </div>
+    
+              <div class="Related posts blog row">
+                <!-- post -->
+                <div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up">
+                  <div class="card bg-transparent border-0 my-3">
+                    <div class="card-img">
+                      <a href="#">
+                        <img
+                          class="card-img-top img-fluid"
+                          src="images/Untitled-1.png"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="card-body p-3">
+                      <a href="#"><h4>One morning, when Gregor Samsa woke</h4></a>
+                      <small class="text-justify">
+                        A wonderful serenity has taken possession of my entire soul,
+                        like these sweet mornings of spring which I enjoy with my
+                        whole heart. I am alone
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <!-- post -->
+                <div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up">
+                  <div class="card bg-transparent border-0 my-3">
+                    <div class="card-img">
+                      <a href="#">
+                        <img
+                          class="card-img-top img-fluid"
+                          src="images/Untitled-2.png"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="card-body p-3">
+                      <a href="#">
+                        <h4>One morning, when Gregor Samsa woke</h4>
+                      </a>
+                      <small class="text-justify">
+                        But I must explain to you how all this mistaken idea of
+                        denouncing pleasure and praising pain was born and I will
+                        give you a complete account of the system
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <!-- post -->
+                <div class="col-12 col-sm-6 col-lg-4" data-aos="fade-up">
+                  <div class="card bg-transparent border-0 my-3">
+                    <div class="card-img">
+                      <a href="#">
+                        <img
+                          class="card-img-top img-fluid"
+                          src="images/Untitled-3.png"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="card-body p-3">
+                      <a href="#">
+                        <h4>But I must explain to you how all</h4>
+                      </a>
+                      <small class="text-justify">
+                        But I must explain to you how all this mistaken idea of
+                        denouncing pleasure and praising pain was born and I will
+                        give you a complete account of the system
+                      </small>
+                    </div>
+                  </div>
+                </div>
+                <!-- End post -->
+              </div>
+              
+          </div>
+    </section>
+    <!-- End Related posts -->
+
+    <!-- subscribe -->
+    <section class="pb-5 bg-light">
+      <div class="container">
+        <div class="card-body pb-0 subscribe mx-5">
+          <form class="contact-form mx-5">
+            <div class="mx-5 px-5">
+              <div class="row">
+                <div class="col-12 text-center title">
+                  <p>Get the latest news by subscribing to our newsletter</p>
+                </div>
+                <div class="col-10">
+                  <div class="form-group">
+                    <input class="form-control" type="email" id="emailS" placeholder="Email address">
+                  </div>
+                </div>
+                <div class="col-2">
+                  <button type="submit" class="btn btn-primary">subscribe</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- End subscribe -->
+
+    <!-- comment -->
+    <div class="bg-light">
+      <div class="container p-70 pt-0">
+        <div class="row">
+          <div class="col-12 col-lg-9 comment">
+            <div class="card shadow-sm border-0">
+              <div class="card-body">
+                <!-- title -->
+                <div class="card-title mb-3">Comments</div>
+                <!-- ur comment -->
+                <form class="contact-form">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="form-group">
+                        <label class="text-black" for="name">Name</label>
+                        <input class="form-control" type="text" id="name">
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="form-group">
+                        <label class="text-black" for="email">Email address</label>
+                        <input class="form-control" type="email" id="email">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="text-black" for="Comment">Comment</label>
+                    <textarea name="" class="form-control" id="Comment" cols="30" rows="5"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Send Comment</button>
+                </form>
+                <!-- End ur comment -->
+                <hr>
+              </div>
+              <!-- comments -->
+  
+              <!-- post -->
+              <section class="comment-c card-body">
+                <!-- author -->
+                <div class="author d-block mb-2">
+                  <a class="d-flex align-items-center m-0 p-0">
+                    <!-- icon -->
+                    <div class="icon align-self-start">
+                      <img
+                        src="images/photo_2020-07-25_20-12-27.jpg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <!-- name -->
+                    <div class="text">
+                      <p class="m-0">
+                        <strong>Patricia Haddock <span class="badge badge-success">AUTHOR</span> </strong>
+                        <small class="d-block">9 months ago</small>
+                      </p>
+                    </div>
+                    <!-- replay -->
+                    <div class="replay-article">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reply" viewBox="0 0 16 16">
+                        <path d="M9.502 5.013a.144.144 0 0 0-.202.134V6.3a.5.5 0 0 1-.5.5c-.667 0-2.013.005-3.3.822-.984.624-1.99 1.76-2.595 3.876C3.925 10.515 5.09 9.982 6.11 9.7a8.741 8.741 0 0 1 1.921-.306 7.403 7.403 0 0 1 .798.008h.013l.005.001h.001L8.8 9.9l.05-.498a.5.5 0 0 1 .45.498v1.153c0 .108.11.176.202.134l3.984-2.933a.494.494 0 0 1 .042-.028.147.147 0 0 0 0-.252.494.494 0 0 1-.042-.028L9.502 5.013zM8.3 10.386a7.745 7.745 0 0 0-1.923.277c-1.326.368-2.896 1.201-3.94 3.08a.5.5 0 0 1-.933-.305c.464-3.71 1.886-5.662 3.46-6.66 1.245-.79 2.527-.942 3.336-.971v-.66a1.144 1.144 0 0 1 1.767-.96l3.994 2.94a1.147 1.147 0 0 1 0 1.946l-3.994 2.94a1.144 1.144 0 0 1-1.767-.96v-.667z"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <!-- End author -->
+                <p class="card-caption ml-2">
+                  Thanks! I’m pleased you found value in it. Patricia
+                </p>
+              </section>
+  
+              <!-- post -->
+              <section class="comment-c card-body">
+                <!-- author -->
+                <div class="author d-block mb-2">
+                  <a class="d-flex align-items-center m-0 p-0">
+                    <!-- icon -->
+                    <div class="icon align-self-start">
+                      <img
+                        src="images/photo_2020-07-25_20-12-27.jpg"
+                        alt=""
+                        class="img-fluid"
+                      />
+                    </div>
+                    <!-- name -->
+                    <div class="text">
+                      <p class="m-0">
+                        <strong>Patricia Haddock</strong>
+                        <small class="d-block">9 months ago</small>
+                      </p>
+                    </div>
+                    <!-- replay -->
+                    <div class="replay-article">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reply" viewBox="0 0 16 16">
+                        <path d="M9.502 5.013a.144.144 0 0 0-.202.134V6.3a.5.5 0 0 1-.5.5c-.667 0-2.013.005-3.3.822-.984.624-1.99 1.76-2.595 3.876C3.925 10.515 5.09 9.982 6.11 9.7a8.741 8.741 0 0 1 1.921-.306 7.403 7.403 0 0 1 .798.008h.013l.005.001h.001L8.8 9.9l.05-.498a.5.5 0 0 1 .45.498v1.153c0 .108.11.176.202.134l3.984-2.933a.494.494 0 0 1 .042-.028.147.147 0 0 0 0-.252.494.494 0 0 1-.042-.028L9.502 5.013zM8.3 10.386a7.745 7.745 0 0 0-1.923.277c-1.326.368-2.896 1.201-3.94 3.08a.5.5 0 0 1-.933-.305c.464-3.71 1.886-5.662 3.46-6.66 1.245-.79 2.527-.942 3.336-.971v-.66a1.144 1.144 0 0 1 1.767-.96l3.994 2.94a1.147 1.147 0 0 1 0 1.946l-3.994 2.94a1.144 1.144 0 0 1-1.767-.96v-.667z"/>
+                      </svg>
+                    </div>
+                  </a>
+                </div>
+                <!-- End author -->
+                <p class="card-caption ml-2">
+                  she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.
+                </p>
+                <!-- post -->
+                <section class="comment-c card-body">
+                  <!-- author -->
+                  <div class="author d-block mb-2">
+                    <a class="d-flex align-items-center m-0 p-0">
+                      <!-- icon -->
+                      <div class="icon align-self-start">
+                        <img
+                          src="images/photo_2020-07-25_20-12-27.jpg"
+                          alt=""
+                          class="img-fluid"
+                        />
+                      </div>
+                      <!-- name -->
+                      <div class="text">
+                        <p class="m-0">
+                          <strong>Patricia Haddock</strong>
+                          <small class="d-block">9 months ago</small>
+                        </p>
+                      </div>
+                      <!-- replay -->
+                      <div class="replay-article">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-reply" viewBox="0 0 16 16">
+                          <path d="M9.502 5.013a.144.144 0 0 0-.202.134V6.3a.5.5 0 0 1-.5.5c-.667 0-2.013.005-3.3.822-.984.624-1.99 1.76-2.595 3.876C3.925 10.515 5.09 9.982 6.11 9.7a8.741 8.741 0 0 1 1.921-.306 7.403 7.403 0 0 1 .798.008h.013l.005.001h.001L8.8 9.9l.05-.498a.5.5 0 0 1 .45.498v1.153c0 .108.11.176.202.134l3.984-2.933a.494.494 0 0 1 .042-.028.147.147 0 0 0 0-.252.494.494 0 0 1-.042-.028L9.502 5.013zM8.3 10.386a7.745 7.745 0 0 0-1.923.277c-1.326.368-2.896 1.201-3.94 3.08a.5.5 0 0 1-.933-.305c.464-3.71 1.886-5.662 3.46-6.66 1.245-.79 2.527-.942 3.336-.971v-.66a1.144 1.144 0 0 1 1.767-.96l3.994 2.94a1.147 1.147 0 0 1 0 1.946l-3.994 2.94a1.144 1.144 0 0 1-1.767-.96v-.667z"/>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                  <!-- End author -->
+                  <p class="card-caption ml-2">
+                    World of Grammar. The Big Oxmox advised her not to do so, because there were thousands of bad Commas.
+                  </p>
+                </section>
+              </section>
+            </div>
+            <!-- End comments -->
+          </div>
+          <!-- side -->
+          <div class="col-12 col-lg-3">
+            <div class="flex-column Related posts blog row small-img">
+              <!-- post -->
+              <div class="col-12 col-sm-4 col-lg-12" data-aos="fade-up">
+                <div class="card bg-transparent border-0">
+                  <div class="card-img">
+                    <a href="#">
+                      <img
+                        class="card-img-top img-fluid"
+                        src="images/Untitled-1.png"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body p-3">
+                    <a href="#"><h4>One morning, when Gregor Samsa woke</h4></a>
+                    <small class="text-justify">
+                      A wonderful serenity has taken possession of my entire soul,
+                      like these sweet mornings of spring which I enjoy with my
+                      whole heart. I am alone
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <!-- post -->
+              <div class="col-12 col-sm-4 col-lg-12" data-aos="fade-up">
+                <div class="card bg-transparent border-0">
+                  <div class="card-img">
+                    <a href="#">
+                      <img
+                        class="card-img-top img-fluid"
+                        src="images/Untitled-2.png"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body p-3">
+                    <a href="#">
+                      <h4>One morning, when Gregor Samsa woke</h4>
+                    </a>
+                    <small class="text-justify">
+                      But I must explain to you how all this mistaken idea of
+                      denouncing pleasure and praising pain was born and I will
+                      give you a complete account of the system
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <!-- post -->
+              <div class="col-12 col-sm-4 col-lg-12" data-aos="fade-up">
+                <div class="card bg-transparent border-0">
+                  <div class="card-img">
+                    <a href="#">
+                      <img
+                        class="card-img-top img-fluid"
+                        src="images/Untitled-3.png"
+                        alt=""
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body p-3">
+                    <a href="#">
+                      <h4>But I must explain to you how all</h4>
+                    </a>
+                    <small class="text-justify">
+                      But I must explain to you how all this mistaken idea of
+                      denouncing pleasure and praising pain was born and I will
+                      give you a complete account of the system
+                    </small>
+                  </div>
+                </div>
+              </div>
+              <!-- End post -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- End comment -->
+
+
+    <!-- footer -->
+    <footer class="bg-light p-70 pb-0">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-sm-6 col-md-4" data-aos="flip-down">
+            <div class="widget">
+              <h6>About PiperNet.ir</h6>
+              <small>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </small>
+            </div>
+            <div class="widget"></div>
+          </div>
+          <!-- /.col-md-4 -->
+          <div class="col-6 col-sm-3 col-md-2 pl-lg-5" data-aos="flip-down">
+            <div class="widget">
+              <h6>Pages</h6>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Terms</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Privacy</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Buy</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Sell</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- /.col-md-2 -->
+          <div class="col-6 col-sm-3 col-md-2" data-aos="flip-down">
+            <div class="widget">
+              <h6>Resources</h6>
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- /.col-md-2 -->
+          <div class="col-6 col-sm-6 col-md-4" data-aos="flip-down">
+            <div class="widget quick-info">
+              <h6>Contact</h6>
+              <ul class="nav flex-column">
+                <li class="nav-item mail">
+                  <a href="mailto:mamyrbas@gmail.com" class="nav-link"
+                    >mamyrbas@gmail.com</a
+                  >
+                </li>
+                <li class="nav-item phone">
+                  <a href="tel:+989190488012" class="nav-link"
+                    >+98 9190488012</a
+                  >
+                </li>
+                <li class="nav-item map">
+                  <a
+                    href="https://goo.gl/maps/TLqRWGLZUTyetkJ5A"
+                    class="nav-link"
+                    >Iran, Qom, Islamic Revolution Street</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- /.col-md-4 -->
+          <div class="col-12" data-aos="flip-down">
+            <div
+              class="widget copy-right py-5 mb-0 d-flex justify-content-between"
+            >
+              <small>
+                © 2020. All Rights Reserved. Some Right
+                <a href="#">PiperNet.ir</a>&nbsp;&nbsp; Design by
+                <a href="#">Untree.co</a>
+              </small>
+
+              <ul class="nav d-flex">
+                <li class="nav-item">
+                  <a href="#" class="nav-link px-3">Terms</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link px-3">Privacy</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- /.col-12 -->
+        </div>
+      </div>
+    </footer>
+    <!-- End footer -->
+  </body>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/flickity.pkgd.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/custom.js"></script>
+</html>
